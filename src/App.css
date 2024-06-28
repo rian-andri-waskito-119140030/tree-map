@@ -1,0 +1,45 @@
+/* src/App.css */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.navbar button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+select {
+  margin: 20px;
+  padding: 5px;
+}
+
+.tile {
+  stroke: #fff;
+}
+
+#tooltip {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.legend-item text {
+  font-size: 12px;
+  text-anchor: middle;
+}
